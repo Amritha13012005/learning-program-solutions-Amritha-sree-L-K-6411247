@@ -4,14 +4,6 @@ This GitHub repository contains all the **Java Full Stack Engineer (FSE) Mandato
 
 
 
-##  Folder Structure
-
-week- 1 DesignPrinciple And Pattern Handson
-    Exercise 1: Implementing the Singleton Pattern
-    Exercise 2: Implementing the Factory Method Pattern
-
-
-
 ##  About This Repository
 
 This repo is created for tracking my learning progress in the **Java FSE program**. It includes:
