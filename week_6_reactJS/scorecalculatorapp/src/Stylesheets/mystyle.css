@@ -1,0 +1,9 @@
+.score-box {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border: 2px solid #007bff;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
