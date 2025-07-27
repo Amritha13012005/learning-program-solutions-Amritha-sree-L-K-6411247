@@ -1,0 +1,205 @@
+
+  FOR cust_rec IN (SELECT CustomerID, Age, LoanInterestRate FROM Customers) LOOP
+                                                                 *
+ERROR at line 2:
+ORA-06550: line 2, column 66:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 2, column 20:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 3, column 8:
+PLS-00364: loop index variable 'CUST_REC' use is invalid
+ORA-06550: line 3, column 5:
+PL/SQL: Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+
+
+More Details :
+https://docs.oracle.com/error-help/db/ora-06550/
+https://docs.oracle.com/error-help/db/pls-00364/
+Elapsed: 00:00:00.008
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+  FOR cust_rec IN (SELECT CustomerID, Age, LoanInterestRate FROM Customers) LOOP
+                                                                 *
+ERROR at line 2:
+ORA-06550: line 2, column 66:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 2, column 20:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 3, column 8:
+PLS-00364: loop index variable 'CUST_REC' use is invalid
+ORA-06550: line 3, column 5:
+PL/SQL: Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+
+
+More Details :
+https://docs.oracle.com/error-help/db/ora-06550/
+https://docs.oracle.com/error-help/db/pls-00364/
+Elapsed: 00:00:00.008
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+
+Commit complete.
+
+Elapsed: 00:00:00.000
+
+  FOR cust_rec IN (SELECT CustomerID, Age, LoanInterestRate FROM Customers) LOOP
+                                                                 *
+ERROR at line 2:
+ORA-06550: line 2, column 66:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 2, column 20:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 3, column 8:
+PLS-00364: loop index variable 'CUST_REC' use is invalid
+ORA-06550: line 3, column 5:
+PL/SQL: Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+
+
+More Details :
+https://docs.oracle.com/error-help/db/ora-06550/
+https://docs.oracle.com/error-help/db/pls-00364/
+Elapsed: 00:00:00.009
+
+  FOR cust_rec IN (SELECT CustomerID FROM Customers WHERE Age > 60) LOOP
+                                          *
+ERROR at line 2:
+ORA-06550: line 2, column 43:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 2, column 20:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 3, column 12:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 3, column 5:
+PL/SQL: SQL Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+
+
+More Details :
+https://docs.oracle.com/error-help/db/ora-06550/
+Elapsed: 00:00:00.008
+
+  FOR cust_rec IN (SELECT CustomerID FROM Customers WHERE Age > 60) LOOP
+                                          *
+ERROR at line 2:
+ORA-06550: line 2, column 43:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 2, column 20:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 3, column 12:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 3, column 5:
+PL/SQL: SQL Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+
+
+More Details :
+https://docs.oracle.com/error-help/db/ora-06550/
+Elapsed: 00:00:00.008
+
+
+Table CUSTOMERS created.
+
+Elapsed: 00:00:00.010
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.009
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+Commit complete.
+
+Elapsed: 00:00:00.002
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.090
+
+SELECT CustomerID, Age, LoanInterestRate FROM Customers;
+*
+ERROR at line 11:
+ORA-06550: line 11, column 1:
+PLS-00103: Encountered the symbol "SELECT" 
+
+https://docs.oracle.com/error-help/db/ora-06550/
+
+
+More Details :
+https://docs.oracle.com/error-help/db/ora-06550/
+https://docs.oracle.com/error-help/db/pls-00103/
+Elapsed: 00:00:00.009
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.021
+
+
+Table CUSTOMERS created.
+
+Elapsed: 00:00:00.013
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.012
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+Commit complete.
+
+Elapsed: 00:00:00.002
+
+1% discount applied to Customer ID: 101
+1% discount applied to Customer ID: 103
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.014
